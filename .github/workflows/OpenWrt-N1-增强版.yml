@@ -85,7 +85,7 @@ jobs:
       - name: 上传 IPK
         uses: actions/upload-artifact@main
         with:
-          name: gd772_OpenWrt_N1-_ipk
+          name: gd772_OpenWrt_N1_ipk
           path: ./new/package
       - name: 固件上传到 WeTransfer
         run: |
