@@ -10,7 +10,7 @@ on:
 #    paths:
 #      - 'all.config'
   schedule:
-   - cron: 0 20 * * * 
+   - cron: 0 0 00 * * ?
   watch:
     types: started
 jobs:
